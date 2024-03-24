@@ -260,7 +260,7 @@ API docs: http://localhost:8080/v2/api-docs
 
 ## Code repository
 
-https://github.com/chinmay12/tractive
+https://github.com/chinmay12/tractive-app
 
 
 ## Authors
