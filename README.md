@@ -75,6 +75,18 @@ docker run -p8080:8080 -e DB_USER=tractive -e DB_PASS=test123 pets-tracking-serv
 Tomcat started on port(s): 8080 (http) with context path ''
 ```
 
+## Default data
+
+Default data created for owners from id 1 to 4
+
+```
+INSERT INTO owners(name) values ('Joe');
+INSERT INTO owners(name) values ('Louis');
+INSERT INTO owners(name) values ('Steve');
+INSERT INTO owners(name) values ('Rachel');
+```
+
+
 ## API details
 
 URL at which application is available: http://localhost:8080/
